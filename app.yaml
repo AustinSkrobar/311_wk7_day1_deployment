@@ -1,4 +1,4 @@
 runtime: nodejs10
 
 env_variables:
-  CLOUD_INSTANCE: fake-instance
+  CLOUD_INSTANCE: wk7d1-296117:us-central1:wk7-instance

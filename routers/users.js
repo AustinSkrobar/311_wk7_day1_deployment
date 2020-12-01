@@ -3,7 +3,7 @@ const usersController = require('../controllers/users')
 const { authenticate } = require('../middleware')
 const router = express.Router()
 
-router.get('/', authenticate, usersController.getAllUsers)
+router.get('/', usersController.getAllUsers)
 
 router.get('/:id', authenticate, usersController.getUserById)
 
